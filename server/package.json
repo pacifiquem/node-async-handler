@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Learning Docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacifiquem/dock-node-react.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "react"
+  ],
+  "author": "pacifiquem@github.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pacifiquem/dock-node-react/issues"
+  },
+  "homepage": "https://github.com/pacifiquem/dock-node-react#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "json-web-token": "^3.2.0",
+    "mongoose": "^7.0.3",
+    "websocket": "^1.0.34"
+  }
+}
