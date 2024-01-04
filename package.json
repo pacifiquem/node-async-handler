@@ -1,0 +1,35 @@
+{
+    "name": "asyncaid",
+    "version": "0.0.2",
+    "description": "Async Error Handling Middleware for Express with ESM support.",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "vitest",
+        "build": "tsc"
+    },
+    "keywords": [
+        "async",
+        "error",
+        "handler",
+        "express"
+    ],
+    "private": false,
+    "author": "MURANGWA Pacifique",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pacifiquem/asyncaid.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pacifiquem/asyncaid/issues"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^16.11.9",
+        "express": "^4.18.2",
+        "typescript": "^4.5.4",
+        "vitest": "^1.1.1"
+    }
+}
