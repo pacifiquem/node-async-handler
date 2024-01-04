@@ -1,3 +1,1 @@
-import asyncErrorHandler from './src/asyncErrorHandler';
-
-export default asyncErrorHandler;
+export { default as asyncHandler } from "./src/asyncErrorHandler";

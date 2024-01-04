@@ -11,7 +11,12 @@ This middleware helps you eliminate the need for ```try-catch``` blocks througho
 To use ```asyncaid```, simply wrap your async functions in the asyncHandler middleware:
 
 ```ts
-import asyncHandler from 'asyncaid';
+// For ESM
+import pkg from 'asyncaid';
+const { asyncHandler } = pkg;
+
+// For CommonJS
+const { asyncHandler } = require('asyncaid');
 
 express.get('/', asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
   const result = await someAsyncFunction();
@@ -20,6 +25,21 @@ express.get('/', asyncHandler(async (req: Request, res: Response, next: NextFunc
 ```
 
 In case of an error, the middleware automatically calls ```next(error)```, allowing centralized error handling in your Express app.
+
+## Importing
+
+> **Note** : To import ```asyncaid``` in ESM:
+>
+> ```ts
+> import pkg from 'asyncaid';
+> const { asyncHandler } = pkg;
+>```
+
+> **Note** : To import ```asyncaid``` in CommonJS:
+>
+> ```ts
+> const { asyncHandler } = require('asyncaid');
+>```
 
 ## License
 

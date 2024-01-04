@@ -1,13 +1,14 @@
 {
     "name": "asyncaid",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "description": "Async Error Handling Middleware for Express with ESM support.",
-    "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "test": "vitest",
-        "build": "tsc"
+        "build": "vitest --no-watch && tsc",
+        "test": "vitest  --no-watch",
+        "test:dev": "vitest --watch",
+        "test:coverage": "vitest run --coverage"
     },
     "keywords": [
         "async",
