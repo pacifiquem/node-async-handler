@@ -1,6 +1,6 @@
 {
     "name": "node-async-handler",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Async Error Handling Middleware for Express with ESM support.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
