@@ -45,4 +45,4 @@ In case of an error, the middleware automatically calls ```next(error)```, allow
 
 This project is licensed under the MIT License. See the [LICENSE file](https://github.com/pacifiquem/node-async-handler/blob/main/LICENSE) for details.
 
-<p align="right">Author: MURANGWA Pacifique</p>
+<p align="right" style="color: gray;">Author: MURANGWA Pacifique</p>

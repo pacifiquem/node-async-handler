@@ -31,6 +31,8 @@ Please adhere to the following code style guidelines:
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository. Clearly describe the problem or enhancement, including any relevant details.
 
+> **Note** : In case you didn't follow all things listed in this file, your issue or pull request will be reject immediately.
+
 ## License
 
 By contributing to node-async-handler, you agree that your contributions will be licensed under the MIT License. Please refer to the [LICENSE](https://github.com/pacifiquem/node-async-handler/blob/main/LICENSE) file for details.

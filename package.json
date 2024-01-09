@@ -15,7 +15,12 @@
         "async",
         "error",
         "handler",
-        "express"
+        "express",
+        "express-async-handler",
+        "express-async-errors",
+        "express-async-error-handler",
+        "http",
+        "error-handler"
     ],
     "private": false,
     "author": "MURANGWA Pacifique",
