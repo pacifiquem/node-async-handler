@@ -1,6 +1,6 @@
-# Contributing to asyncaid
+# Contributing to node-async-handler
 
-Thank you for considering contributing to asyncaid! We welcome your input and appreciate your efforts to make this middleware even better.
+Thank you for considering contributing to node-async-handler! We welcome your input and appreciate your efforts to make this middleware even better.
 
 ## How to Contribute
 
@@ -33,4 +33,4 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 ## License
 
-By contributing to asyncaid, you agree that your contributions will be licensed under the MIT License. Please refer to the [LICENSE](https://github.com/pacifiquem/asyncaid/blob/main/LICENSE) file for details.
+By contributing to node-async-handler, you agree that your contributions will be licensed under the MIT License. Please refer to the [LICENSE](https://github.com/pacifiquem/node-async-handler/blob/main/LICENSE) file for details.

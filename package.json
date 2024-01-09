@@ -1,5 +1,5 @@
 {
-    "name": "asyncaid",
+    "name": "node-async-handler",
     "version": "1.0.0",
     "description": "Async Error Handling Middleware for Express with ESM support.",
     "main": "dist/index.js",
@@ -22,10 +22,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/pacifiquem/asyncaid.git"
+        "url": "https://github.com/pacifiquem/node-async-handler.git"
     },
     "bugs": {
-        "url": "https://github.com/pacifiquem/asyncaid/issues"
+        "url": "https://github.com/pacifiquem/node-async-handler/issues"
     },
     "devDependencies": {
         "@types/express": "^4.17.21",
